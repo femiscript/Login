@@ -1,0 +1,62 @@
+.login{
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    height: 350px;
+    width: 350px;
+    padding: 0px 20px;
+    background-color: #ffffff; 
+}
+
+.login input{
+    margin-top: 15px;
+    padding: 10px 5px;
+    width: 350px;
+    font-size: 15.5px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    opacity: 0.5;
+    color: black;
+    background-color: rgb(201, 214, 218);
+}
+.login p{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: rgb(9, 93, 119);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.login input:hover{
+    background-color: #09547293;
+    color: black;
+}
+
+.login a{
+    text-decoration: none;
+    margin-top: 15px;
+    color: rgb(11, 121, 155);
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+
+.login button:hover{
+    background-color: rgba(11, 121, 155, 0.76);
+}
+
+.login #sign-up{
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.login #sign-up a{
+    color: rgb(4, 54, 70);
+}

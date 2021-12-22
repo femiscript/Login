@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.979)), url("./mine img/images(116).jpg");
+    height: 100vh;
+}
+
+.main-container{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.959), rgba(0, 0, 0, 0.979)), url("./mine img/images(116).jpg");
+}
+
+.main-conatiner h1{
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.banner-container{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.603), rgba(255, 0, 0, 0.651)), no-repeat,
+    url("./mine img/images(116).jpg");
+}
+
+.banner-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.banner-box .banner-heading{
+    font-size: 4rem;
+    display: block;
+    color: white;
+    margin: 0;
+}
+.banner-box .banner-text,
+.main-box .boxes-text{
+    font-size: 1.3rem;
+}
+.main-box .boxes-text{
+    margin: 0 0 5px 0;
+    font-weight: 800;
+}
+.banner-box .banner-btn{
+    cursor: pointer;
+    margin-top: 15px;
+    width: 300px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    border: 1px solid white;
+    outline: none;
+    text-decoration: none;
+    transition: all .3s;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.603), rgba(255, 0, 0, 0.651));
+    color: white;
+}
+
+.banner-box .banner-btn:hover{
+    background: linear-gradient(to left, rgba(0, 0, 255, 0.603), rgba(255, 0, 0, 0.651));
+    border: none;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    background-color: rgb(240, 238, 238);
+    margin-top: 0;
+    /* z-index: 1; */
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 250px;
+    background-color: rgba(45, 179, 197, 0.349);
+    margin: 0px 10px 30px 0px;
+    text-align: center;
+    border-radius: 30px 0px 30px 0px;
+}
+.boxes-box h4{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.boxes-box .box-percent{
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    display: block;
+}
+
+.container-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+	/* left: 50%;
+	top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 700px;
+    height: 350px; */
+    /* height: 300px; */
+}
+
+.boxes-btn{
+    cursor: pointer;
+    margin-top: 15px;
+    width: 150px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: all .3s;
+    border-radius: 40px;
+    background-color: rgba(11, 121, 155);
+    color: white;
+}
+
+.boxes-btn:hover,
+.boxes-btn:active{
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(87, 91, 92);
+    font-size: 18px;
+}
+
+.clear{
+    display: none;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(11, 121, 155);
+    text-align: center;
+}
